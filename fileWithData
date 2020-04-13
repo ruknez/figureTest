@@ -2,3 +2,4 @@ RECT rect1 2 3
 TRIANGLE tr1 3 4 5
 RECT rect2 10 20
 CIRCLE circle2 -5
+CIRCLE circle2 5
