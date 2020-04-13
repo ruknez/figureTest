@@ -3,8 +3,8 @@
 #include <sstream>
 #include <vector>
 
-#include <cFigure.h>
-#include <cRealFigures.h>
+#include "cFigure.h"
+#include "cRealFigures.h"
 
 //============================================================
 cFigurePtr createFigure( std::istream & inputStream )
@@ -66,7 +66,7 @@ std::vector< cFigurePtr > createFigureVec( const std::string & dataFileName )
 //============================================================
 int main( int argc, char ** argv )
 {
-    std::string fileName = "/home/dima/testForWork/figures/fileWithData";
+    std::string fileName = "fileWithData";
     if ( argc == 2 )
     {
         fileName = argv[ 2 ];
