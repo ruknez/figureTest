@@ -69,7 +69,7 @@ int main( int argc, char ** argv )
     std::string fileName = "fileWithData";
     if ( argc == 2 )
     {
-        fileName = argv[ 2 ];
+        fileName = argv[ 1 ];
     }
 
     try
