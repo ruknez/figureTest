@@ -22,7 +22,7 @@ if (MSVC)
     )
 else ()
     target_compile_options(main_cli PRIVATE
-        -Wall -O2 -Wextra -pedantic -Werror # -O2 решает (особеено в этом задании прирост производительности в 4 раза)
+        -Wall -O2 -Wextra -pedantic -Werror 
     )
     target_compile_options(figures PRIVATE
         -Wall -O2 -Wextra -pedantic -Werror
